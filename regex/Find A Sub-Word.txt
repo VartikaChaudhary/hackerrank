@@ -1,0 +1,16 @@
+<?php 
+$_fp = fopen("php://stdin", "r");
+
+$text='';
+for($i=(int)fgets($_fp);$i--;){
+    $text .= fgets($_fp);
+}
+for($i=(int)fgets($_fp);$i--;){
+    $s= trim(fgets($_fp));
+    preg_match_all("/(\w$s\w)/",$text, $match);
+    echo count($match[0])."\n";
+}
+fclose($_fp);
+
+
+?>
