@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan = new Scanner(System.in);
+        String src = scan.next();
+        
+        if(src.contains("/*")){
+            while(src.contains("*/") == false){
+                        src = scan.next();
+
+        
+            
+        }src = scan.next();
+            
+        
+        }
+        if(src.contains("import")){
+            System.out.println("Java");
+        }
+        else if(src.contains("#include")){
+            
+            System.out.println("C");
+        }
+        else{
+            
+            System.out.println("Python");
+        }
+    }
+}
