@@ -1,0 +1,9 @@
+import re
+
+matches = []
+
+for i in range(int(input())):
+    match = re.findall("\\b(?:\w|\.){1,}@(?:\w*\.*){1,}\\b", input())
+    matches.extend(match)
+matches = ';'.join(sorted(set(filter(None, matches))))
+print (matches)
