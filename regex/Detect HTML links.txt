@@ -1,0 +1,10 @@
+import re
+
+expr = r'''href=\"(.*?)\".*?>(.*?)</a>'''
+
+for _ in range(int(input())):
+    match = re.findall(expr, input())
+    for m in match:
+        link, text = m
+        text = re.sub(r'<.*?>', '', text)
+        print(link.strip(), text.strip(), sep=",")
