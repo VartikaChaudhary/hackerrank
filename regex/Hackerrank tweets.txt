@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        int number = input.nextInt();
+        int count = 0;
+        int output = 0;
+        String regex = ".*(hackerrank).*";
+        while (count <= number) {            
+            String text = input.nextLine();
+            text = text.toLowerCase();
+            boolean match;
+            if (match = text.matches(regex)){
+                output++;
+            }
+            count++;
+        }
+        System.out.print(output);
+    }
+}
