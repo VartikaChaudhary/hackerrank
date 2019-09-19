@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<title>NOTEPAD PAGE</title>
+		
+		<style>
+		
+			body{
+				margin-top:40px;
+				margin-right:150px;
+				margin-left:150px;
+				background-color:lavender;
+				border: solid blue;
+			}
+			
+			.t{
+				margin-right:10px;
+				margin-top:10px;
+			}
+			
+			.vert1{
+					border-left:double;
+					color:pink;
+					height:80px;
+					margin-left:65px;
+				}
+			
+			.top{
+					border-top:double;
+					color:pink;
+					width:100%;
+			}
+			
+			.vert2{
+					border-left:double;
+					color:pink;
+					height:500px;
+					margin-left:65px;
+			}
+			
+			.t2{
+				border-collapse:collapse;
+				border-top:0;
+				border-left:0;
+				border-right:0;
+				border-bottom:1px dotted #ccc;
+			}
+			
+				
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		
+		
+			<table class='t' border='2' align='right' bordercolor='pink'>
+			
+				<tr>
+					<td>Date __/__/____</td>
+				</tr>
+				<tr>
+					<td>Page</td>
+				</tr>
+			
+			</table> 
+		
+		
+		<div class='vert1'></div>
+		<div class='top'></div>
+		<div class='vert2'>
+		
+		<table class='t2' border='2' height='500px' width='100%'>
+
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+
+		</table>
+		</div>
+	</body>
+
+</html>
